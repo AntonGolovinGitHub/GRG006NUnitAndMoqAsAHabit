@@ -31,5 +31,11 @@ namespace GRG006NUnitAndMoqAsAHabit
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            quoteTextArea.Document.Blocks.Clear();
+            quoteTextArea.AppendText("GRG006NUnitAndMoqAsAHabit Learning App...");
+        }
     }
 }

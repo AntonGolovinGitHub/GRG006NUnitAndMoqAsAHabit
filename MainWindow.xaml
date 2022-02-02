@@ -14,7 +14,7 @@
             <ColumnDefinition Width="645*"/>
         </Grid.ColumnDefinitions>
         <ProgressBar HorizontalAlignment="Left" Height="12" Margin="438,393,0,0" VerticalAlignment="Top" Width="145" Grid.Column="3"/>
-        <RichTextBox Grid.ColumnSpan="4" Margin="10,21,221,30" FontSize="14" FontWeight="Bold" FontStyle="Italic">
+        <RichTextBox x:Name="quoteTextArea" Grid.ColumnSpan="4" Margin="10,21,221,30" FontSize="14" FontWeight="Bold" FontStyle="Italic" Padding="20,20,20,20">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="Check Me Out -->"/>
@@ -25,7 +25,7 @@
         <Button Grid.Column="3" Content="Roundrobin Quote" HorizontalAlignment="Left" Margin="438,48,0,0" VerticalAlignment="Top" Height="22" Width="145"/>
         <Button Grid.Column="3" Content="Reset" HorizontalAlignment="Left" Margin="438,75,0,0" VerticalAlignment="Top" Height="22" Width="145"/>
         <Button Grid.Column="3" Content="Exit" HorizontalAlignment="Left" Margin="438,366,0,0" VerticalAlignment="Top" Height="22" Width="145" Click="Button_Click"/>
-        <Button Grid.Column="3" Content="About" HorizontalAlignment="Left" Margin="438,339,0,0" VerticalAlignment="Top" Height="22" Width="145"/>
+        <Button Grid.Column="3" Content="About" HorizontalAlignment="Left" Margin="438,339,0,0" VerticalAlignment="Top" Height="22" Width="145" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
