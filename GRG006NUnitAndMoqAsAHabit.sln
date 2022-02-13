@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRG006NUnitAndMoqAsAHabit", "GRG006NUnitAndMoqAsAHabit\GRG006NUnitAndMoqAsAHabit.csproj", "{96686A9E-48E0-408F-9602-B404F35D0622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRG006NUnitAndMoqAsAHabit.Tests", "GRG006NUnitAndMoqAsAHabit.Tests\GRG006NUnitAndMoqAsAHabit.Tests.csproj", "{65CCD724-9FE8-41BB-A006-415DE484F6D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96686A9E-48E0-408F-9602-B404F35D0622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96686A9E-48E0-408F-9602-B404F35D0622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96686A9E-48E0-408F-9602-B404F35D0622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96686A9E-48E0-408F-9602-B404F35D0622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65CCD724-9FE8-41BB-A006-415DE484F6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CCD724-9FE8-41BB-A006-415DE484F6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CCD724-9FE8-41BB-A006-415DE484F6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CCD724-9FE8-41BB-A006-415DE484F6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3AFDCB-1B1F-47B1-A4DB-8BE75FDE37AE}
+	EndGlobalSection
+EndGlobal
